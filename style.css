@@ -1285,4 +1285,19 @@ footer a:hover {
     padding: 20px;
 }
 
+    @media(max-width: 400px){
+
+    #feature{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #feature .fe-box{
+        width: 70%;
+        
+    }
+
+}
+
 }
